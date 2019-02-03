@@ -1,0 +1,67 @@
+No. 1
+	pseudocode: STORE "massa benda" with value 600kg
+		    STORE "percepatan benda" with value 2 m/s2
+		    CALCULATE "massa benda" times "percepatan benda"
+		    SET "resultan gaya" with calculate result
+		    DISPLAY "result gaya"
+
+
+No. 2
+	Pseudocode: STORE "tahun" to with any number
+
+		    IF "tahun" mod 4 equal 0 AND mod 100 not equal 0
+  		    	DISPLAY "Tahun Kabisat"
+		    ELSE IF "tahun" mod 4 equal 0 AND "tahun" mod 100 equal 0 AND "tahun" mod 400 equal 0
+ 		   	 DISPLAY "Tahun Kabisat"
+		    ELSE 
+			DISPLAY "Bukan Tahun Kabisat"	
+
+	Algoritma: 1. Masukan nilai ("year") dengan sebuah nilai
+		   2. Tentukan kondisi untuk mengetahui nilai ("year") adalah tahun kabisat:
+			-jika nilai ("year") habis dibagi 4 dan tidak habis dibagi 100,
+			-jika nilai ("year") habis dibagi 4 dan habis dibagi 100 dan habis dibagi 400.
+		   3. Jikka hasil bernilai (true), maka tampil "tahun kabisat"
+		   4. Selain itu tampil "bukan kabisat"
+
+No.3 
+	Pseudocode: STORE "clothes" with value 0
+		
+		    WHILE "clothes" < 20
+		    ADD "clothes" by 1
+		    DISPLAY value of "clothes"
+
+		    IF "clothes" === 20
+			DO turn on washing machine
+		    ELSE
+			DO dont turn on washing machine
+
+	Algoritma: 1. Masukan nilai "clothes" dengan 0, karena belum ada baju yang di masukan.
+		   2. Buat perulangan untuk setiap baju yang dimasukan agar kondisi memenuhi.
+		   3. Ketika nilai "clothes" didalam mesin cuci belum 20, makan nilai "clothes" akan di tambah 1.
+		   4. Tampilkan nilai "clothes" saat ini
+		   5. Jika nilai "clothes" sudah 20, maka nyalan mesin cuci.
+		   6. Jika nilai "clothes" belum 20, maka jangan nyalakan mesin cuci
+
+No.4 
+	Pseudocode: STORE "student" with value 0
+		    STORE "nails" with empty string
+		
+		    WHILE "student" < 40
+		    ADD "student" by 1
+			
+		    SET "nails" value by teacher
+		
+		    IF "nails" value "long"
+		        DISPLAY "Punish"
+		    ELSE 
+			DISPLAY "Praise"
+
+	Algoritma: 1. Masukan nilai "student" dengan 0, karena belum ada siswa yang di cek.
+		   2. Masukan nilai "nails" dengan string kosong, karena nilai "nails" akan diberikan oleh guru.
+		   3. Buat perulangan untuk dapat memeriksa seluruh murid.
+		   4. Ketika memeriksa murid, nilai "student" ditambah satu hingga konidisi terpenuhi
+		   5. Ada dua kondisi yang menentukan hasil dari pemeriksaan nilai "nails" oleh guru:
+			- Jika murid memiliki nilai ("nails === long"), maka murid akan dihukum.
+			- Jika murid memiliki nilai ("nails === short"), maka murid akan mendapat pujian.
+		
+
